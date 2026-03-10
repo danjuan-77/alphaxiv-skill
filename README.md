@@ -13,17 +13,11 @@ Search and retrieve research papers from [AlphaXiv](https://www.alphaxiv.org) â€
 
 ## Installation
 
-Copy the `alphaxiv/` directory into your agent's skills folder:
-
 ```bash
-# Claude Code (personal)
-cp -r alphaxiv/ ~/.claude/skills/alphaxiv/
-
-# Claude Code (project)
-cp -r alphaxiv/ .claude/skills/alphaxiv/
+npx skills add danjuan-77/alphaxiv-skill
 ```
 
-Then use `/alphaxiv` or let the agent invoke it automatically.
+Works with Claude Code, Cursor, GitHub Copilot, Gemini CLI, Amp, Cline, and 35+ other agents.
 
 ## Usage
 
